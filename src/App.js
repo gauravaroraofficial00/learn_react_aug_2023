@@ -1,7 +1,11 @@
+import Todo from "./components/Todo";
+
 function App() {
   return (
-    <div className="First class">
-      <h1>Hello</h1>
+    <div style={{ padding: "20px" }}>
+      <h1>My todos</h1>
+      <Todo text="first task" /><br />
+      <Todo text="second task" />
     </div>
   );
 }
